@@ -1,0 +1,84 @@
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background: #f3f9ff;
+  color: #222;
+}
+
+.parallax {
+  background-image: url('https://images.unsplash.com/photo-1603048295169-6c3f3c087c2e');
+  min-height: 500px;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 2.2em;
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+  margin-top: 10px;
+}
+
+.logo {
+  height: 60px;
+  margin: 10px;
+}
+
+main {
+  padding: 40px 20px;
+}
+
+h2 {
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  color: #003366;
+  font-size: 1.8em;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 250px;
+  border: 2px solid gold;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-family: 'Cinzel', serif;
+  margin: 0 0 10px;
+}
+
+.card p {
+  font-size: 0.95em;
+  color: #444;
+}
